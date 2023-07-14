@@ -1,0 +1,26 @@
+name: Version & Changelog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}
+          fetch-depth: "0" # https://github.com/lerna/lerna/issues/2542
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: "package.json"
+      - run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+      - uses: ./.github/actions/cached-npm-install
+      - run: |
+          lerna version --conventional-commits --yes --create-release github --message "chore(release): publish [skip ci]"
+        env:
+          GH_TOKEN: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}

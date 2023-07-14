@@ -1,0 +1,21 @@
+name: Install package dependencies
+description: Install and cache node_modules for use in later jobs
+
+inputs:
+  NPM_TOKEN:
+    description: "Authentication token for fetching private modules from NPM"
+    required: false
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v3
+      id: npm-cache
+      with:
+        path: "**/node_modules"
+        key: ${{ runner.os }}-node-${{ hashFiles('./package-lock.json', './packages/*/package-lock.json') }}
+    - shell: bash
+      if: steps.npm-cache.outputs.cache-hit != 'true'
+      run: npm ci
+      env:
+        NODE_AUTH_TOKEN: ${{ inputs.NPM_TOKEN }}

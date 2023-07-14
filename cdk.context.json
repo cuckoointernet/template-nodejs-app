@@ -1,0 +1,22 @@
+{
+  "add-your-customer-name-here": {
+    "dev": {
+      "logLevel": "debug",
+      "account": "add-your-aws-account-number-here",
+      "region": "add-your-aws-region-here",
+      "alarmNotificationsTopic": "optional-add-your-sns-alarm-topic-here"
+    },
+    "stage": {
+      "logLevel": "debug",
+      "account": "add-your-aws-account-number-here",
+      "region": "add-your-aws-region-here",
+      "alarmNotificationsTopic": "optional-add-your-sns-alarm-topic-here"
+    },
+    "prod": {
+      "logLevel": "debug",
+      "account": "add-your-aws-account-number-here",
+      "region": "add-your-aws-region-here",
+      "alarmNotificationsTopic": "optional-add-your-sns-alarm-topic-here"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+name: Deploy Development
+
+on: pull_request
+
+env:
+  ENVIRONMENT: dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: "package.json"
+      - run: npm version
+      - uses: ./.github/actions/cached-npm-install
+      - run: npm run build
+
+  unit-test:
+    needs: [build]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: "package.json"
+      - uses: ./.github/actions/cached-npm-install
+      - run: npm run build
+      - run: npm run lint:nofix
+      - run: npm run test
+
+  deploy:
+    needs: [unit-test]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        customer: ["cuckoo"]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: "package.json"
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+      - uses: ./.github/actions/cached-npm-install
+      - run: npm run package
+      - run: npx cdk diff --context CUSTOMER=${{ matrix.customer }} --context ENVIRONMENT=${{ env.ENVIRONMENT }}
+      - run: npx cdk deploy --context CUSTOMER=${{ matrix.customer }} --context ENVIRONMENT=${{ env.ENVIRONMENT }} --ci --require-approval=never --all
+
+  integration-test:
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: "package.json"
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+      - uses: ./.github/actions/cached-npm-install
+      - run: npm run test:integration:dev

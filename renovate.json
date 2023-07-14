@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "timezone": "Europe/London",
+  "schedule": [
+    "before 3am on sunday"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "allowedVersions": "18.x"
+    },
+    {
+      "matchPackageNames": ["@types/node"],
+      "allowedVersions": "18.x"
+    },
+    {
+      "matchPackageNames": ["npm"],
+      "allowedVersions": "9.x"
+    }
+  ]
+}
