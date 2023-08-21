@@ -1,13 +1,13 @@
 # ℹ Overview
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 This is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for Node.js projects. 
 It provides a preconfigured common set of tooling and is the starting point for any new Node.js projects we build. 
 Using this template will save you time and also promote a consistent developer experience across repositories.
 
 It's primarily geared towards Node.js + TypeScript + AWS. If this sounds good to you keep on reading!
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # ✅ Features
 
