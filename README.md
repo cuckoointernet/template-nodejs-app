@@ -7,7 +7,7 @@ Using this template will save you time and also promote a consistent developer e
 It's primarily geared towards Node.js + TypeScript + AWS. If this sounds good to you keep on reading!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # ✅ Features
@@ -230,6 +230,7 @@ This package follows the `cdk-package` directory structure (see above) with some
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sekhavati"><img src="https://avatars.githubusercontent.com/u/16732873?v=4?s=100" width="100px;" alt="Amir Sekhavati"/><br /><sub><b>Amir Sekhavati</b></sub></a><br /><a href="https://github.com/cuckoointernet/template-nodejs-app/commits?author=sekhavati" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/elliotcmassey"><img src="https://avatars.githubusercontent.com/u/30092137?v=4?s=100" width="100px;" alt="Elliot Massey"/><br /><sub><b>Elliot Massey</b></sub></a><br /><a href="https://github.com/cuckoointernet/template-nodejs-app/commits?author=elliotcmassey" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jinwood"><img src="https://avatars.githubusercontent.com/u/6605287?v=4?s=100" width="100px;" alt="Julian Inwood"/><br /><sub><b>Julian Inwood</b></sub></a><br /><a href="https://github.com/cuckoointernet/template-nodejs-app/commits?author=jinwood" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lukeaswift"><img src="https://avatars.githubusercontent.com/u/92876806?v=4?s=100" width="100px;" alt="Luke Swift"/><br /><sub><b>Luke Swift</b></sub></a><br /><a href="https://github.com/cuckoointernet/template-nodejs-app/commits?author=lukeaswift" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
