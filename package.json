@@ -1,7 +1,7 @@
 {
   "name": "template-nodejs-app",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "engines": {
     "node": "^18.14.0",
     "npm": "9.x"
