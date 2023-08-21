@@ -51,6 +51,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "afenton90",
+      "name": "Alex Fenton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8963736?v=4",
+      "profile": "https://twitter.com/afenton90",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
