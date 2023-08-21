@@ -42,6 +42,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "benjaminparnell",
+      "name": "Ben Parnell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3385899?v=4",
+      "profile": "http://benparnell.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
