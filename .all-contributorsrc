@@ -8,6 +8,15 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "sekhavati",
+      "name": "Amir Sekhavati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16732873?v=4",
+      "profile": "https://github.com/sekhavati",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "elliotcmassey",
       "name": "Elliot Massey",
       "avatar_url": "https://avatars.githubusercontent.com/u/30092137?v=4",
