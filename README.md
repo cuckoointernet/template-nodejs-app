@@ -1,4 +1,7 @@
 # ℹ Overview
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for Node.js projects. 
 It provides a preconfigured common set of tooling and is the starting point for any new Node.js projects we build. 
@@ -218,6 +221,20 @@ This package follows the `cdk-package` directory structure (see above) with some
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/elliotcmassey"><img src="https://avatars.githubusercontent.com/u/30092137?v=4?s=100" width="100px;" alt="Elliot Massey"/><br /><sub><b>Elliot Massey</b></sub></a><br /><a href="https://github.com/cuckoointernet/template-nodejs-app/commits?author=elliotcmassey" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
