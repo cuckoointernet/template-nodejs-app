@@ -20,7 +20,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@cuckoointernet/aws-constructs": "1.0.0",
+    "@cuckoointernet/aws-constructs": "1.2.1",
     "@tsconfig/node18": "1.0.3",
     "@types/aws-lambda": "8.10.119",
     "@types/jest": "29.5.2",
