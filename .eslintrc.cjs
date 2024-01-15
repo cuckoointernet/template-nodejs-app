@@ -23,6 +23,10 @@ module.exports = {
     "unicorn/prevent-abbreviations": "off",
     "unicorn/consistent-function-scoping": "off",
     "unicorn/prefer-string-replace-all": "off",
+    "unicorn/better-regex": "off",
+    "unicorn/no-negated-condition": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "unicorn/no-null": "warn",
   },
   overrides: [
     {
