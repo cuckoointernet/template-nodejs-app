@@ -1,0 +1,71 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sekhavati",
+      "name": "Amir Sekhavati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16732873?v=4",
+      "profile": "https://github.com/sekhavati",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "elliotcmassey",
+      "name": "Elliot Massey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30092137?v=4",
+      "profile": "https://github.com/elliotcmassey",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jinwood",
+      "name": "Julian Inwood",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6605287?v=4",
+      "profile": "https://github.com/jinwood",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lukeaswift",
+      "name": "Luke Swift",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92876806?v=4",
+      "profile": "https://github.com/lukeaswift",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "benjaminparnell",
+      "name": "Ben Parnell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3385899?v=4",
+      "profile": "http://benparnell.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "afenton90",
+      "name": "Alex Fenton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8963736?v=4",
+      "profile": "https://twitter.com/afenton90",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "template-nodejs-app",
+  "projectOwner": "cuckoointernet"
+}
