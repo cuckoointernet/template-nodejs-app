@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { App, Tags } from "aws-cdk-lib";
 import { createId } from "./utils";
 import { BASE_TAGS } from "./constants";
