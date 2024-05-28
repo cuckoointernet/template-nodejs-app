@@ -9,11 +9,11 @@ jobs:
   version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}
           fetch-depth: "0" # https://github.com/lerna/lerna/issues/2542
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: "package.json"
       - run: |
