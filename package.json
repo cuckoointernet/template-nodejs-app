@@ -22,7 +22,7 @@
   "devDependencies": {
     "@cuckoointernet/aws-constructs": "1.2.1",
     "@tsconfig/node18": "1.0.3",
-    "@types/aws-lambda": "8.10.131",
+    "@types/aws-lambda": "8.10.138",
     "@types/jest": "29.5.11",
     "@types/jest-when": "3.5.2",
     "@types/node": "18.19.9",
