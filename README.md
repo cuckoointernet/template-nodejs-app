@@ -17,8 +17,8 @@ It's primarily geared towards Node.js + TypeScript + AWS. If this sounds good to
 - **[Jest](https://jestjs.io/)** for testing
 - **[GitHub Actions](https://github.com/features/actions)** for CICD
 - **[Lerna](https://github.com/lerna/lerna)** for monorepo management
-- **[XO](https://github.com/xojs/xo)** for linting
-- **[Prettier](https://prettier.io/)** for formatting (via XO)
+- **[Eslint](https://eslint.org/)** for linting
+- **[Prettier](https://prettier.io/)** for formatting
 - **[Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/)** for automated dependency updates
 - **[Lint-staged](https://github.com/okonet/lint-staged)** to lint files before they're committed
 - **[Hygen](https://www.hygen.io/)** for generating new packages with a consistent structure
