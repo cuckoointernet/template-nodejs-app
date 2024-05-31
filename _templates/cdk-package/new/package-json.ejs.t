@@ -7,8 +7,8 @@ to: packages/<%= packageName %>/package.json
   "license": "UNLICENSED",
   "version": "0.1.0",
   "engines": {
-    "node": "^18.14.0",
-    "npm": "9.x"
+    "node": "^18.19.0",
+    "npm": "10.x"
   },
   "scripts": {
     "build": "tsc",
