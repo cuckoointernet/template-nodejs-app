@@ -25,7 +25,7 @@
     "@types/aws-lambda": "8.10.138",
     "@types/jest": "29.5.12",
     "@types/jest-when": "3.5.5",
-    "@types/node": "18.19.33",
+    "@types/node": "18.19.59",
     "@typescript-eslint/eslint-plugin": "6.18.1",
     "@typescript-eslint/parser": "6.18.1",
     "aws-cdk-lib": "2.143.0",
